@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="match_parent"  android:layout_alignParentLeft="true" tools:context="ifsb.arithmetico.MultiplicationPanelFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1234567"
+        android:id="@+id/tv_num1"
+        android:textAlignment="textEnd"
+        android:gravity="end"
+        android:layout_below="@+id/tv_borrow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="12345"
+        android:id="@+id/tv_num2"
+        android:gravity="end"
+        android:layout_below="@+id/tv_num1"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/tv_answer"
+        android:layout_below="@+id/tv_num2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/tv_borrow" />
+
+</RelativeLayout>

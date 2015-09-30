@@ -1,0 +1,4 @@
+<resources>
+    <string name="about_terms">This is the pro version of Arithmetic-O-Mania. Thank you for your purchase. Your support is very much appreciated.</string>
+    <string name="about_features">Addition-only, subtraction-only, multiplication-only, division-only, combo sessions\n\nCountdown timer to time your session (can be adjusted to suit your skill level)\n\nFun sound effects (can be selectively disabled)\n\nGenerates a performance report at the end of each session\n\nNumber of questions per session can be set\n\nPlays user-selected background audio during session to enhance user experience (can be disabled)\n\nAutomatic forwarding to the next question (period can be specified by the user)\n\nQuick settings (defined for various skill levels)</string>
+</resources>

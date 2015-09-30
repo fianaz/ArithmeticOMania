@@ -1,0 +1,123 @@
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="ifsb.arithmetico.QuestionActivity"
+    android:background="@color/questionpanel_normal_bg">
+
+    <FrameLayout
+        app:layout_widthPercent="60%"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/frame_question"
+        android:layout_toLeftOf="@+id/frgmt_keypad"
+        android:layout_alignParentTop="true"
+        android:background="@color/questionpanel_normal_bg">
+    </FrameLayout>
+
+    <fragment
+        app:layout_widthPercent="40%"
+        android:layout_height="match_parent"
+        android:name="ifsb.arithmetico.KeypadFragment"
+        android:id="@+id/frgmt_keypad"
+        android:layout_alignParentRight="true" />
+
+    <android.support.percent.PercentRelativeLayout
+        app:layout_widthPercent="60%"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/frgmt_keypad"
+        android:id="@+id/relativeLayout3"
+        android:layout_alignParentBottom="true"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv_right"
+            android:layout_alignParentRight="true"
+            android:layout_above="@+id/btn_nextquestion" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv_perfect"
+            android:layout_alignParentRight="true"
+            android:layout_above="@+id/btn_nextquestion" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_above="@+id/btn_nextquestion"
+            android:id="@+id/tv_timerstatus"
+            />
+
+
+        <Button
+            app:layout_widthPercent="70%"
+            android:layout_height="wrap_content"
+            android:text="Next Question"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btn_nextquestion"
+            android:background="@color/questionactivity_nextquestionbtn_bg"
+            style="?android:attr/borderlessButtonStyle"
+            />
+
+        <TextView
+            app:layout_widthPercent="30%"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:id="@+id/tv_status"
+            android:layout_alignTop="@+id/btn_nextquestion"
+            android:layout_alignBottom="@+id/btn_nextquestion"
+            android:layout_toRightOf="@+id/btn_nextquestion"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:background="#ffd0f2ff"
+            android:textStyle="bold|italic"
+            android:textSize="32dp" />
+
+        <Button
+            app:layout_widthPercent="100%"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/btn_nextquestion"
+            android:layout_alignParentBottom="true"
+            android:text="View Report"
+            android:id="@+id/btn_viewreport"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@color/questionactivity_viewreportbtn_bg" />
+
+        <Button
+            app:layout_widthPercent="70%"
+            android:layout_height="wrap_content"
+            android:text="Skip"
+            android:layout_alignTop="@+id/btn_nextquestion"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btn_skipquestion"
+            android:background="@color/questionactivity_skipbtn_bg" />
+    </android.support.percent.PercentRelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tv_autonext"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="42dp"
+        android:enabled="false"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End of Session"
+        android:id="@+id/tv_sessionended"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="42dp"
+        android:visibility="invisible" />
+
+</android.support.percent.PercentRelativeLayout>

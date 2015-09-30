@@ -1,0 +1,18 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="about_bg">@color/standard_bg</color>
+    <color name="quicksetting_bg">@color/standard_bg</color>
+    <color name="sessionreport_dismiss_bg">#ffcd9d</color>
+    <color name="sessionreport_bg">@color/standard_bg</color>
+    <color name="questionpanel_normal_bg">@color/standard_bg</color>
+    <color name="questionpanel_normal_text">#000000</color>
+    <color name="questionpanel_highlight_bg">#d0f2ff</color>
+    <color name="questionpanel_highlight_text">#0000ff</color>
+    <color name="questionpanel_answer_bg">#006400</color>
+    <color name="questionpanel_answer_text">#ffffff</color>
+    <color name="questionactivity_skipbtn_bg">#ffcd9d</color>
+    <color name="questionactivity_viewreportbtn_bg">#fef326</color>
+    <color name="questionactivity_nextquestionbtn_bg">#7de4a5</color>
+
+</resources>

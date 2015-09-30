@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="match_parent" android:layout_alignParentLeft="true" tools:context="ifsb.arithmetico.SubtractionPanelFragment">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/borrowRow"></GridLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/borrowRow"
+        android:id="@+id/numberTable"></GridLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numberTable"
+        android:id="@+id/answerRow"></GridLayout>
+
+    <ImageView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:id="@+id/iv_borrow"
+        android:src="@drawable/borrowup"
+        android:layout_alignTop="@+id/borrowRow"
+        android:layout_toRightOf="@+id/borrowRow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/tv_subtop"
+        android:textStyle="bold"
+        android:textSize="42dp"
+        android:background="@android:color/holo_green_light" />
+
+</RelativeLayout>

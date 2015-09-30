@@ -1,0 +1,102 @@
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:id="@+id/RelativeLayout1"
+    android:background="#bedbd9">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="#7ea4e4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_front"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:id="@+id/btn_addition"
+                android:layout_marginTop="5dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/addbtnup" />
+            <ImageView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:id="@+id/btn_subtraction"
+                android:layout_marginTop="5dp"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/btn_addition"
+                android:src="@drawable/subtbtnup" />
+            <ImageView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:id="@+id/btn_multiplication"
+                android:layout_marginTop="5dp"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/btn_subtraction"
+                android:src="@drawable/multplybtndown" />
+            <ImageView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:id="@+id/btn_division"
+                android:layout_marginTop="5dp"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/btn_multiplication"
+                android:src="@drawable/divbtndown" />
+            <ImageView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:id="@+id/btn_combo"
+                android:layout_marginTop="5dp"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/btn_division"
+                android:src="@drawable/combobtnup" />
+            <!--
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADDITION (+)"
+                android:id="@+id/btn_addition"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="#ffffcd9d"
+                android:layout_marginTop="5dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/addButton" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUBTRACTION (-)"
+                android:id="@+id/btn_subtraction"
+                android:layout_below="@+id/btn_addition"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="#ffffcd9d"
+                android:layout_marginTop="5dp"
+                android:layout_centerInParent="true" />
+-->
+         </android.support.percent.PercentRelativeLayout>
+    </FrameLayout>
+
+    <!--
+        <ImageView
+            android:layout_width="match_parent"
+            app:layout_heightPercent="30%"
+            android:id="@+id/iv_front" />
+    -->
+</android.support.percent.PercentRelativeLayout>

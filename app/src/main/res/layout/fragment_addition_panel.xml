@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"  android:layout_alignParentLeft="true" tools:context="ifsb.arithmetico.AdditionPanelFragment">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/carryRow"></GridLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberTable"
+        android:layout_below="@+id/carryRow"></GridLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/answerRow"
+        android:layout_below="@+id/numberTable"></GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="+"
+        android:id="@+id/tv_addop"
+        android:textSize="42dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_light" />
+
+</RelativeLayout>

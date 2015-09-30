@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="User Experience Settings" >
+        <ListPreference
+            android:title="Question Text Size"
+            android:summary="Set font size of question text"
+            android:key="qTextSize"
+            android:defaultValue="24"
+            android:entries="@array/textSizesArray"
+            android:entryValues="@array/textSizes"/>
+        <CheckBoxPreference
+            android:title="Background Audio"
+            android:summary="Play background audio during session"
+            android:key="bgaudio"
+            android:defaultValue="false"/>
+        <Preference
+            android:title="Audio file"
+            android:summary="Set audio file to be played during session"
+            android:defaultValue=""
+            android:key="bgaudiofile"/>
+        <CheckBoxPreference
+            android:title="Auto Next"
+            android:summary="Enable auto forward to next question"
+            android:defaultValue="false"
+            android:key="autonext"/>
+        <EditTextPreference
+            android:title="Auto Next Period"
+            android:summary="Specify auto next period (in seconds)"
+            android:key="autonexttime"
+            android:defaultValue="3" />
+        <CheckBoxPreference
+            android:title="Left-Side Keypad"
+            android:summary="Switch to left-side keypad"
+            android:defaultValue="false"
+            android:key="leftkeypad"/>
+        <CheckBoxPreference
+            android:title="Vibrator"
+            android:summary="Enable vibrate for keypad"
+            android:defaultValue="false"
+            android:key="vibrate"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Sound Effects" >
+        <CheckBoxPreference
+            android:title="Sound Effects"
+            android:summary="Enable sound effects"
+            android:key="soundeffects"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:title="Numeric key clicks"
+            android:summary="Enable numeric key click sounds"
+            android:defaultValue="true"
+            android:key="numerickeysound"/>
+        <CheckBoxPreference
+            android:title="Button clicks"
+            android:summary="Enable button click sounds"
+            android:defaultValue="true"
+            android:key="buttonsound"/>
+        <CheckBoxPreference
+            android:title="Autonext"
+            android:summary="Enable autonext sounds"
+            android:defaultValue="true"
+            android:key="autonextsound"/>
+        <CheckBoxPreference
+            android:title="End of session"
+            android:summary="Enable end of session sound"
+            android:defaultValue="true"
+            android:key="endsession"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Session Settings" >
+        <EditTextPreference
+            android:title="Number of Questions"
+            android:summary="Set number of questions per session"
+            android:key="numquestions"
+            android:defaultValue="5"/>
+        <CheckBoxPreference
+            android:title="Countdown Timer"
+            android:summary="Enable countdown timer in session"
+            android:key="countdown"
+            android:defaultValue="false"/>
+        <EditTextPreference
+            android:title="Countdown Time"
+            android:summary="Set countdown time (in seconds) per question"
+            android:key="countdowntime"
+            android:defaultValue="12"/>
+    </PreferenceCategory>
+    <!--
+    <PreferenceCategory android:title="Misc Settings" >
+    </PreferenceCategory>
+    -->
+
+</PreferenceScreen>

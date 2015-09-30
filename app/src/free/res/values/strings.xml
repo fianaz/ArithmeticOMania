@@ -1,0 +1,5 @@
+<resources>
+    <string name="about_terms">This is the free version of Arithmetic-O-Mania and hence does not have all the features of the pro version. It is recommended that you try it out before considering buying the pro version.</string>
+    <string name="about_features">Addition-only, subtraction-only, combo sessions (multiplication and division to be available only in the pro version)\n\nCountdown timer to time your session (can be adjusted to suit your skill level)\n\nFun sound effects (can be selectively disabled)\n\nGenerates a performance report at the end of each session\n\nNumber of questions per session can be set\n\nPlays user-selected background audio during session to enhance user experience (can be disabled)\n\nAutomatic forwarding to the next question (period can be specified by the user)\n\nQuick settings (defined for various skill levels)</string>
+    <string name="banner">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_mute" android:title="Disable Sound Effects"
+        android:icon="@drawable/ic_muted_off"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_music" android:title="Enable BG Audio"
+        android:icon="@drawable/music_off"
+        android:orderInCategory="101" app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_autonext" android:title="Enable Autonext"
+        android:icon="@drawable/autonext_off"
+        android:orderInCategory="102" app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_quicksetting" android:title="@string/action_quicksetting"
+        android:orderInCategory="200" app:showAsAction="never" />
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="201" app:showAsAction="never" />
+    <item android:id="@+id/action_bugreport" android:title="@string/action_bugreport"
+        android:orderInCategory="202" app:showAsAction="never" />
+    <item android:id="@+id/action_about" android:title="@string/action_about"
+        android:orderInCategory="203" app:showAsAction="never" />
+</menu>

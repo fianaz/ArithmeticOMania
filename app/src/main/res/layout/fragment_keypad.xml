@@ -1,0 +1,194 @@
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="ifsb.arithmetico.KeypadFragment"
+    android:id="@+id/keypadFrame">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tv_number"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignLeft="@+id/key_1"
+        android:layout_alignRight="@+id/key_2"
+        android:gravity="center_vertical|left"
+        android:layout_above="@+id/key_1"
+        android:textSize="28dp" />
+
+    <Button
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="13%"
+        android:text="1"
+        android:id="@+id/key_1"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="#a2bdc7"
+        android:layout_marginBottom="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_above="@+id/key_3"
+        android:textSize="24dp"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <Button
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="13%"
+        android:text="2"
+        android:id="@+id/key_2"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="#cacdba"
+        android:layout_alignTop="@+id/key_1"
+        android:layout_toRightOf="@+id/key_1"
+        android:layout_marginBottom="1dp"
+        android:clickable="true"
+        android:textSize="24dp"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <Button
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="13%"
+        android:text="3"
+        android:id="@+id/key_3"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="#cacdba"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_above="@+id/key_5"
+        android:textSize="24dp"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="13%"
+        android:text="4"
+        android:id="@+id/key_4"
+        android:background="#a2bdc7"
+        android:layout_alignTop="@+id/key_3"
+        android:layout_toRightOf="@+id/key_3"
+        android:layout_marginBottom="1dp"
+        android:textSize="24dp"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <Button
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="13%"
+        android:text="5"
+        android:id="@+id/key_5"
+        android:background="#a2bdc7"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_above="@+id/key_7"
+        android:textSize="24dp"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="13%"
+        android:text="6"
+        android:id="@+id/key_6"
+        android:background="#cacdba"
+        android:layout_alignTop="@+id/key_5"
+        android:layout_toRightOf="@+id/key_5"
+        android:layout_marginBottom="1dp"
+        android:textSize="24dp"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="13%"
+        android:text="7"
+        android:id="@+id/key_7"
+        android:background="#cacdba"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_above="@+id/key_9"
+        android:textSize="24dp"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="13%"
+        android:text="8"
+        android:id="@+id/key_8"
+        android:background="#a2bdc7"
+        android:layout_alignTop="@+id/key_7"
+        android:layout_toRightOf="@+id/key_7"
+        android:layout_marginBottom="1dp"
+        android:textSize="24dp"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="13%"
+        android:text="9"
+        android:id="@+id/key_9"
+        android:background="#a2bdc7"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_above="@+id/key_reset"
+        android:textSize="24dp"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="13%"
+        android:text="0"
+        android:id="@+id/key_0"
+        android:background="#cacdba"
+        android:layout_alignTop="@+id/key_9"
+        android:layout_toRightOf="@+id/key_9"
+        android:layout_marginBottom="1dp"
+        android:textSize="24dp"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="12%"
+        android:text="AC"
+        android:id="@+id/key_reset"
+        android:background="#ff5db1ff"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_above="@+id/btn_enter"
+        android:textSize="18dp" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="12%"
+        android:text="C"
+        android:id="@+id/key_back"
+        android:background="#ff5db1ff"
+        android:layout_toRightOf="@+id/key_reset"
+        android:layout_marginBottom="1dp"
+        android:layout_above="@+id/btn_enter"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        app:layout_heightPercent="12%"
+        android:text="Enter"
+        android:id="@+id/btn_enter"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="#ffffcd9d"
+        android:layout_alignRight="@+id/key_2"
+        android:layout_alignLeft="@+id/key_1"
+        android:textSize="18dp" />
+
+</android.support.percent.PercentRelativeLayout>

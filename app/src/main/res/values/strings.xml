@@ -1,0 +1,46 @@
+<resources>
+    <string name="bugreport_email">arithmetico.feedback@gmail.com</string>
+    <string name="bugreport_subject">BUG REPORT: </string>
+    <string name="bugreport_phonemodel">Phone Model: </string>
+    <string name="bugreport_osversion">OS Version: </string>
+    <string name="bugreport_appversion">App Version: </string>
+    <string name="bugreport_appbuild">App Build: </string>
+    <string name="bugreport_bugdescription">---- Bug Description ----</string>
+    <string name="app_name">Arithmetic-O-Mania</string>
+
+    <string name="action_quicksetting">Quick Setting</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_bugreport">Report Bug</string>
+    <string name="action_about">About Arithmetic-O-Mania</string>
+    <string name="title_activity_addition">Addition</string>
+    <string name="title_activity_subtraction">Subtraction</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_question">Session</string>
+    <string name="title_activity_comboquestion">Session</string>
+    <string name="title_activity_user_settings">Settings</string>
+    <string name="title_activity_about">About This App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="about_prakata">Arithmetic-O-Mania is a math app for practising basic arithmetic skills; specifically addition, subtraction, multiplication and division skills. To enhance these skills, Arithmetic-O-Mania includes features to improve accuracy and speed of applying such skills. Elements of fun and challenge are also integrated for better user experience. Arithmetic-O-Mania can be a useful training app for improving your basic mental arithmetic skills.</string>
+    <string name="about_terms">This is the free version of Arithmetic-O-Mania and is supported by ads. For a nominal one-time charge, the coming pro version can be purchased which will be ad-free. The free version does not have the features/improvements planned and designed exclusively for the evolving pro version. It is highly recommended that you try out the free version first before considering buying the pro version.</string>
+    <string name="about_author">Author: S Idris</string>
+    <string name="about_email">Email: s.idris@gmail.com</string>
+    <string name="about_version">ver 1.0F</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_session_report">Session Report</string>
+    <string name="title_activity_help">HelpActivity</string>
+
+    <string name="hint_numericpad">Using the numeric keypad, type the answer for the current column and then click the \"Enter\" button. Do this for every column until the question has been fully answered.</string>
+    <string name="hint_viewreport">Click the \"View Report\" button to view the report of your performance for this session.</string>
+    <string name="hint_nextquestion">Click the \"Next Question\" button to proceed to the next question.</string>
+    <string name="hint_borrow">Click the \"B\" button (orange circular icon) to borrow from the next column.</string>
+    <string name="hint_skipquestion">Click the \"Skip\" button to skip the current question.</string>
+    <string name="hint_backhome1">Press the Back button to return to the Home screen (skipping all remaining questions, including the current one).</string>
+    <string name="hint_backhome2">Press the Back button to return to the Home screen.</string>
+    <string name="title_activity_quick_setting">Quick Settings</string>
+
+</resources>

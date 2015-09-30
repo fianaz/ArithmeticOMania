@@ -1,0 +1,22 @@
+Arithmetic-O-Mania is a math app for practising basic arithmetic skills; specifically addition,
+subtraction, multiplication and division skills. To enhance these skills, Arithmetic-O-Mania
+includes features to improve accuracy and speed of applying such skills. Elements of fun and
+challenge are also integrated for better user experience. It can be a useful training app for
+improving your basic mental arithmetic skills.
+
+FEATURES
+- Addition-only, subtraction-only, combo sessions (multiplication and division to be available only
+in the pro version)
+- Countdown timer to time your session (can be adjusted to suit your skill level)
+- Fun sound effects (can be selectively disabled)
+- Generates a performance report at the end of each session
+- Number of questions per session can be set
+- Plays user-selected background audio during session to enhance user experience (can be disabled)
+- Automatic forwarding to the next question (period can be specified by the user)
+- Predefined settings (defined for various skill levels)
+
+This is the free version of Arithmetic-O-Mania and is supported by ads. For a nominal one-time
+charge, the coming pro version can be purchased which will be ad-free. The free version does not
+have the features/improvements planned and designed exclusively for the evolving pro version.
+It is highly recommended that you try out the free version first before considering buying the pro
+version.
